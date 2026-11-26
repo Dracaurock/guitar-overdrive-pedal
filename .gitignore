@@ -1,0 +1,18 @@
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+\#auto_saved_files\#
+*.lck
+_autosave-*
+.history/
+
+# Fabrication outputs (generate them when ordering)
+gerbers/
+*.zip
+
+# Third-party SPICE models (download them, see README)
+hardware/*.lib
+hardware/*.LIB
+hardware/*.mod
+hardware/*.301
